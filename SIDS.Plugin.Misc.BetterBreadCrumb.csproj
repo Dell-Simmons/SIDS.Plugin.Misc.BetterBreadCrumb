@@ -13,7 +13,6 @@
   <ItemGroup>
     <None Remove="logo.jpg" />
 	<None Remove="plugin.json" />
-    <None Remove="Views\_ViewImports.cshtml" />
     <None Remove="Areas\Admin\Views\_ViewImports.cshtml" />
   </ItemGroup>
 
@@ -46,9 +45,7 @@
     <Folder Include="Areas\Admin\Extensions\" />
     <Folder Include="Areas\Admin\Factories\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Factories\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
