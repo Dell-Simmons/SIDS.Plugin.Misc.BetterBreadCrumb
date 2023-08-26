@@ -6,6 +6,6 @@
   "SupportedVersions": [ "4.60" ],
   "Author": "Steamboat Island Duck Stamps",
   "DisplayOrder": 1,
-  "FileName": "Nop.Plugin.Misc.BetterBreadCrumb.dll",
+  "FileName": "SIDS.Plugin.Misc.BetterBreadCrumb.dll",
   "Description": "Breadcrumb included subcategories"
 }
