@@ -1,5 +1,24 @@
-﻿@{
+﻿@model SIDS.Plugin.Misc.BetterBreadCrumb.Models.ConfigurationModel
+@{
 	Layout = "_ConfigurePlugin";
 }
-
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="BetterBreadCrumb" asp-action="Configure" method="post">
 No configuration is needed in this version - This is SIDS.BetterBreadCrumb
+<div class="form-group row">
+    <div class="col-md-3">
+        <nop-label asp-for="Enabled" />
+    </div>
+    <div class="col-md-3">
+        <nop-editor asp-for="Enabled" />
+        <span asp-validation-for="Enabled"></span>
+    </div>
+</div>
+<div class="form-group row">
+    <div class="col-md-3">
+        &nbsp;
+    </div>
+    <div class="col-md-9">
+        <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
+    </div>
+</div>
