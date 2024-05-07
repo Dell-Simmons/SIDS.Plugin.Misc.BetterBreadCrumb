@@ -22,3 +22,12 @@ No configuration is needed in this version - This is SIDS.BetterBreadCrumb
         <button type="submit" name="save" class="btn btn-primary">@T("Admin.Common.Save")</button>
     </div>
 </div>
+</form>
+ 
+@*  The above code is the configuration view of the plugin. It is a simple form with a checkbox to enable or disable the plugin. 
+ The  @await Component.InvokeAsync("StoreScopeConfiguration")  line is used to display the store scope configuration. 
+ The  asp-for  attribute is used to bind the model properties to the form fields. 
+ The  asp-validation-for  attribute is used to display the validation messages. 
+ The  @T("Admin.Common.Save")  is used to display the localized text. 
+ The  nop-label  and  nop-editor  are the custom tag helpers provided by nopCommerce. 
+ The  nop-label  tag helper is used to display the label for *@

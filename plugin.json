@@ -3,9 +3,9 @@
   "FriendlyName": "Better Breadcrumb",
   "SystemName": "Misc.BetterBreadCrumb",
   "Version": "1.00",
-  "SupportedVersions": [ "4.60" ],
+  "SupportedVersions": [ "4.70" ],
   "Author": "Steamboat Island Duck Stamps",
   "DisplayOrder": 1,
   "FileName": "SIDS.Plugin.Misc.BetterBreadCrumb.dll",
-  "Description": "Breadcrumb included subcategories"
+  "Description": "Breadcrumb includes subcategories"
 }

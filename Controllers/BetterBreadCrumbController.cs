@@ -11,7 +11,7 @@ namespace SIDS.Plugin.Misc.BetterBreadCrumb.Controllers
 {
     //BasePluginController,
     [AuthorizeAdmin]
-    [Area(AreaNames.Admin)]
+    [Area(AreaNames.ADMIN)]
     public class BetterBreadCrumbController : BasePluginController
     {
         #region Public Constructors
