@@ -27,6 +27,6 @@ namespace SIDS.Plugin.Misc.BetterBreadCrumb.Infrastructure
         {
         }
 
-        public int Order => 11;
+        public int Order => 666666;
     }
 }
