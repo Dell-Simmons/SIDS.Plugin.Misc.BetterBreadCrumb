@@ -59,10 +59,6 @@
     <Folder Include="Migrations\" />
     <Folder Include="Services\" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1" />
-  </ItemGroup>
  
   <!-- This target execute after "Build" target -->
   <Target Name="NopTarget" AfterTargets="Build">
