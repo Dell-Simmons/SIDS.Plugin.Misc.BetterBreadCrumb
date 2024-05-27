@@ -2,10 +2,10 @@
   "Group": "SIDS",
   "FriendlyName": "Better Breadcrumb",
   "SystemName": "Misc.BetterBreadCrumb",
-  "Version": "1.00",
+  "Version": "1.50",
   "SupportedVersions": [ "4.70" ],
   "Author": "Steamboat Island Duck Stamps",
   "DisplayOrder": 1,
   "FileName": "SIDS.Plugin.Misc.BetterBreadCrumb.dll",
-  "Description": "Breadcrumb includes subcategories"
+  "Description": "Breadcrumb includes subcategories uses actionfilter to get previous url"
 }
