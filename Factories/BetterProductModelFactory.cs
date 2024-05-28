@@ -36,15 +36,6 @@ namespace SIDS.Plugin.Misc.BetterBreadCrumb.Factories
     /// </summary>
     public class BetterProductModelFactory : ProductModelFactory
     { 
-        #region Fields
-        private readonly CatalogSettings _catalogSettings;
-        private readonly ICategoryService _categoryService;
-        private readonly IGenericAttributeService _genericAttributeService;
-        private readonly ILocalizationService _localizationService;
-        private readonly IUrlRecordService _urlRecordService;
-        private readonly IWorkContext _workContext;
-        #endregion Fields
-
         #region Constructors
         public BetterProductModelFactory(
             CaptchaSettings captchaSettings,
@@ -128,12 +119,6 @@ namespace SIDS.Plugin.Misc.BetterBreadCrumb.Factories
             shippingSettings,
             vendorSettings)
         {
-            _catalogSettings = catalogSettings;
-            _categoryService = categoryService;
-            _genericAttributeService = genericAttributeService;
-            _localizationService = localizationService;
-            _urlRecordService = urlRecordService;
-            _workContext = workContext;
         }
         #endregion
 

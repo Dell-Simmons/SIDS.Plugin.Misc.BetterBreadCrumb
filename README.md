@@ -9,3 +9,4 @@
 
 # TODO
 ## I think you can use a newer way to get the previous page url and hence get rid of the aciton filter completely
+# AGAIN I"M CONFUSED AS TO WHAT THIS PLUGIN DOES and if it is needed anymore. . . Doesn't seem to be needed in sidsdev.com
