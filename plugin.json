@@ -3,7 +3,7 @@
   "FriendlyName": "Better Breadcrumb",
   "SystemName": "Misc.BetterBreadCrumb",
   "Version": "6.4.2024",
-  "SupportedVersions": [ "4.70" ],
+  "SupportedVersions": [ "4.80" ],
   "Author": "Steamboat Island Duck Stamps",
   "DisplayOrder": 1,
   "FileName": "SIDS.Plugin.Misc.BetterBreadCrumb.dll",
